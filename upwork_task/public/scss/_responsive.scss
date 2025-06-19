@@ -1,0 +1,141 @@
+/* Extra Small Devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header_mainsec {
+        .navbar {
+            display: none;
+
+        }
+    }
+
+    .mobile_viewmenu {
+        display: block !important;
+        background-color: #0a63c4;
+
+        .search_icon {
+            width: 98%;
+        }
+
+        ul {
+            gap: 2px !important;
+
+            li {
+                a {
+                    font-size: 11px;
+                    padding: 3px !important;
+                }
+            }
+        }
+
+        .profile_dropdown {
+            .btn-group {
+                .btn {
+                    font-size: 11px;
+                    gap: 5px !important;
+                    padding: 4px;
+                }
+            }
+        }
+    }
+
+    .sidebar_mainsec {
+        display: block;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: absolute;
+    }
+
+    .left_mainsec {
+        .detail_cardsec {
+
+            .detail_header {
+                flex-direction: column;
+
+                .detail_head_left {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                }
+
+                .detail_header_right {
+                    gap: 6px;
+
+                    .stackitemtext {
+                        font-size: 12px;
+                    }
+
+                    .bookbtn {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .detail_body {
+                .odds-table {
+                    .team_namewidth {
+                        width: 225px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .right_sectabs {
+
+    .tab_contentmainsec {
+        .search_filtesec {
+            flex-wrap: wrap;
+
+            .form-control {
+                       width: 24%
+;
+            }
+        }
+    }}
+}
+
+/* Small Devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS for larger phones or small tablets */
+}
+
+/* Medium Devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_mainsec {
+        .navbar {
+            display: none;
+
+        }
+    }
+
+    .mobile_viewmenu {
+        display: block !important;
+        background-color: #0a63c4;
+
+        .search_icon {
+            width: 98%;
+        }
+    }
+
+    .sidebar_mainsec {
+        display: block;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: absolute;
+    }
+}
+
+/* Large Devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* CSS for small laptops or desktops */
+}
+
+/* Extra Large Devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* CSS for large desktops */
+}
+
+/* Extra Extra Large Devices (very large screens, 1400px and up) */
+@media (min-width: 1400px) {
+    /* CSS for extra large monitors */
+}

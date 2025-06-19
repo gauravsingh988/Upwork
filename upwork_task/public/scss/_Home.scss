@@ -1,0 +1,384 @@
+.material-icons {
+    font-size: 20px !important;
+}
+
+.cardbox {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    min-height: calc(100vh - 78px);
+
+    overflow-y: auto;
+}
+
+.left_mainsec {
+
+    .detail_header {
+        .detail_head_left {
+            span {
+
+                font-weight: 600;
+            }
+        }
+    }
+
+    .left_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+
+        .head_left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+    }
+
+    .left_slider {
+        .banner {
+            background: radial-gradient(#00818d, #0668a5);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+
+            img {
+                height: 50px;
+                margin: 0 15px;
+            }
+
+            .banner-text {
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+
+    }
+
+    .left_toggle_Sec {
+        margin-top: 10px;
+        gap: 10px;
+
+
+    }
+
+    .toggle_sec {
+        .toggle-container {
+            display: inline-block;
+            position: relative;
+            width: 60px;
+            height: 28px;
+        }
+
+        .toggle-container input {
+            display: none;
+        }
+
+        .toggle-label {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: #717070;
+            border-radius: 20px;
+            cursor: pointer;
+            position: relative;
+            transition: background-color 0.3s ease;
+            margin: 0;
+        }
+
+        .toggle-label::before {
+            content: 'Off';
+            position: absolute;
+            left: 26px;
+            top: 3px;
+            color: white;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .toggle-label::after {
+            content: '';
+            position: absolute;
+            height: 19px;
+            width: 19px;
+            left: 4px;
+            top: 4px;
+            background-color: white;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .toggle-container input:checked+.toggle-label {
+            background-color: #4CAF50;
+        }
+
+        .toggle-container input:checked+.toggle-label::before {
+            content: "On";
+            left: 8px;
+        }
+
+        .toggle-container input:checked+.toggle-label::after {
+            transform: translateX(33px);
+            -webkit-transform: translateX(33px);
+            -moz-transform: translateX(33px);
+            -ms-transform: translateX(33px);
+            -o-transform: translateX(33px);
+        }
+    }
+
+    .detail_cardsec {
+        background-color: #fbfdff;
+        padding: 10px;
+        border: 1px solid #e3f1ff;
+        border-radius: 10px;
+        margin-top: 15px;
+
+        .detail_header {
+            .detail_header_right {
+                gap: 10px;
+
+                .bookbtn {
+                    padding: 0 7px;
+                    border: 1px solid #0a63c4;
+                    color: #0a63c4;
+                    border-radius: 50px;
+                    display: flex;
+                    font-size: 14px;
+                    align-items: center;
+
+                    .material-icons {
+                        font-size: 12px !important;
+                    }
+                }
+
+                .stackitemtext {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .detail_body {
+        .odds-table {
+            width: 100%;
+            margin-top: 16px;
+            border-collapse: collapse;
+            text-align: center;
+
+            .team_namewidth {
+                width: 170px;
+            }
+
+            .subspended {
+                filter: blur(2px);
+                -webkit-filter: blur(2px);
+            }
+
+            th,
+            td {
+                padding: 4px;
+                border: none;
+                font-size: 14px;
+                font-weight: 600;
+                border: 1px solid #fbfdff;
+                width: 50px;
+            }
+
+            .back-header {
+                background-color: #b0ddff;
+                border-radius: 10px 0 0 0;
+                -webkit-border-radius: 10px 0 0 0;
+                -moz-border-radius: 10px 0 0 0;
+                -ms-border-radius: 10px 0 0 0;
+                -o-border-radius: 10px 0 0 0;
+            }
+
+            .lay-header {
+                background-color: #fda7b9;
+                border-radius: 0 10px 0 0;
+                -webkit-border-radius: 0 10px 0 0;
+                -moz-border-radius: 0 10px 0 0;
+                -ms-border-radius: 0 10px 0 0;
+                -o-border-radius: 0 10px 0 0;
+            }
+
+            .back {
+                background-color: #d6eaff;
+            }
+
+            .lay {
+                background-color: #ffe0e0;
+            }
+
+            small {
+                color: #000;
+                font-weight: 600;
+                font-size: 12px;
+            }
+
+            .blue-header {
+                background-color: #b0ddff;
+            }
+
+            .orange-header {
+                background-color: #fda7b9;
+            }
+
+
+        }
+
+    }
+
+
+}
+
+.right_sectabs {
+    .nav-tabs {
+        border: none;
+
+        .nav-link {
+            border: 1px solid #495057;
+            padding: 0px 10px;
+            border-radius: 5px;
+            color: #495057;
+            margin-right: 8px;
+            font-size: 14px;
+            font-weight: 500;
+
+            &.active,
+            &:hover {
+                border: 1px solid #0a63c4;
+                color: #0a63c4;
+            }
+        }
+    }
+
+    .tab_contentmainsec {
+        padding: 10px 0;
+
+        .search_filtesec {
+            display: flex;
+            gap: 5px;
+
+            .form-control {
+                padding: 5px 7px;
+                height: 30px;
+                font-size: 13px;
+                width: 15%;
+
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .filter_Sec {
+            .right_filsec {
+                display: flex;
+
+                .btn-group {
+                    .btn {
+                        display: flex;
+                        align-items: center;
+                        background: #0a63c4;
+                        color: #fff;
+                        padding: 0 9px;
+                        font-size: 14px;
+                        border-radius: 50px;
+                        margin-right: 5px;
+                    }
+                }
+
+                .clearbtn {
+                    padding: 0 7px;
+                    border: 1px solid #0a63c4;
+                    color: #0a63c4;
+                    border-radius: 50px;
+                    display: flex;
+                    font-size: 14px;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .table_secmain {
+        .table {
+
+            td,
+            th {
+                border: none !important;
+                padding: 5px;
+                font-size: 14px;
+            }
+
+            thead {
+                th {
+                    background-color: #f9f9f9;
+                    font-weight: 600;
+                }
+
+            }
+
+
+            td,
+            th {
+
+                &:nth-child(1),
+                :nth-child(1) {
+                    min-width: 70px;
+                }
+            }
+
+            td,
+            th {
+
+                &:nth-child(2),
+                :nth-child(2) {
+                    min-width: 110px;
+                }
+            }
+
+            td,
+            th {
+
+                &:nth-child(3),
+                :nth-child(3) {
+                    min-width: 150px;
+                }
+            }
+
+            td,
+            th {
+
+                &:nth-child(4),
+                :nth-child(4) {
+                    min-width: 350px;
+                }
+            }
+
+            td,
+            th {
+
+                &:nth-child(5),
+                :nth-child(5) {
+                    min-width: 180px;
+                }
+            }
+        }
+    }
+}
