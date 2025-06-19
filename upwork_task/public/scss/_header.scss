@@ -80,6 +80,21 @@
                     }
                 }
             }
+
+            .dropdown-menu {
+                padding: 0;
+
+                .dropdown-item {
+                    padding: 0px 10px;
+                    font-size: 14px;
+                    height: 35px;
+                    line-height: 20px;
+                    font-weight: 500;
+                    &:hover{
+                        background-color: transparent;
+                    }
+                }
+            }
         }
     }
 
@@ -99,13 +114,14 @@
                     background-color: #0045a6;
                     color: #fff;
                     border-radius: 5px;
-                     .text-succuss {
-                    color: #0edd3d !important;
-                }
 
-                .text-danger {
-                    color: #ff7f60 !important;
-                }
+                    .text-succuss {
+                        color: #0edd3d !important;
+                    }
+
+                    .text-danger {
+                        color: #ff7f60 !important;
+                    }
                 }
             }
         }
@@ -133,27 +149,42 @@
                 min-width: 260px;
                 font-size: 14px;
                 padding-left: 30px;
-                 &:focus {
-                        box-shadow: none;
-                        border: none;
-                    }
 
-                    &::placeholder {
-                        color: #fff;
-                    }
+                &:focus {
+                    box-shadow: none;
+                    border: none;
+                }
+
+                &::placeholder {
+                    color: #fff;
+                }
             }
         }
 
         .profile_dropdown {
             .btn-group {
                 .btn {
-                color: #fff;
-                display: flex;
-                justify-content: space-between;
-                gap: 10px;
-                align-items: center;
-                font-size: 14px;
+                    color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+                    align-items: center;
+                    font-size: 14px;
+                }
             }
+            .dropdown-menu {
+                padding: 0;
+
+                .dropdown-item {
+                    padding: 0px 10px;
+                    font-size: 14px;
+                    height: 35px;
+                    line-height: 20px;
+                    font-weight: 500;
+                    &:hover{
+                        background-color: transparent;
+                    }
+                }
             }
         }
     }

@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div>
       <Header onToggle={toggleSidebar}></Header>
-      <div className="d-flex w-100">
+      <div className="d-flex w-100 margintop">
         {sidebarVisible && <Sidebar />}
         <Home></Home>
       </div>

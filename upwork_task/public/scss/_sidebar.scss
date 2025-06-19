@@ -1,5 +1,5 @@
 .sidebar_mainsec {
-    height: 100vh;
+    min-height: 100vh;
     margin-left: 0;
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -10,6 +10,7 @@
     position: relative;
     background-color: #fff;
     z-index: 999;
+    height: 100%;
     
 
     .btntoggle {

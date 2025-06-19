@@ -67,13 +67,10 @@ const Page = ({ onToggle }) => {
                   </button>
                   <div className="dropdown-menu dropdown-menu-right">
                     <button className="dropdown-item" type="button">
-                      Action
+                      Profile
                     </button>
                     <button className="dropdown-item" type="button">
-                      Another action
-                    </button>
-                    <button className="dropdown-item" type="button">
-                      Something else here
+                      Logout
                     </button>
                   </div>
                 </div>
@@ -98,7 +95,7 @@ const Page = ({ onToggle }) => {
                 <a className="">BAL : 92,566,865,582</a>
               </li>
               <li>
-                <a className="">P|L : <span className="text-succuss">92,566,865,582</span></a>
+                <a className="">P|L : <span className="text-succuss">92,566,865</span></a>
               </li>
             </ul>
             <div className="profile_dropdown">
@@ -113,16 +110,13 @@ const Page = ({ onToggle }) => {
                   <i className="fa fa-angle-down"></i>
                 </button>
                 <div className="dropdown-menu dropdown-menu-right">
-                  <button className="dropdown-item" type="button">
-                    Action
-                  </button>
-                  <button className="dropdown-item" type="button">
-                    Another action
-                  </button>
-                  <button className="dropdown-item" type="button">
-                    Something else here
-                  </button>
-                </div>
+                    <button className="dropdown-item" type="button">
+                      Profile
+                    </button>
+                    <button className="dropdown-item" type="button">
+                      Logout
+                    </button>
+                  </div>
               </div>
             </div>
           </div>
